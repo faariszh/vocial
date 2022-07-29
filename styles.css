@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header{
+    background-color: #1f2937;
+    height: 393px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+
+.header-left{
+    color: white;
+    margin-left: 80px;
+    font-size: 20px;
+
+}
+
+.header-right{
+    color: white;
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    font-size: 14px;
+}
