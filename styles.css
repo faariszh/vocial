@@ -1,7 +1,16 @@
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
+    
 }
+
+/** header begins **/
 
 .header{
     background-color: #1f2937;
@@ -9,7 +18,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    
+    flex-shrink: 0;
     
 }
 
@@ -28,7 +37,6 @@ body{
     padding: 10px;
     flex-direction: column;
     align-items: center;
-    
     
 }
 
@@ -49,11 +57,13 @@ ul{
 }
 
 .hero-text{
+   
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
     margin-top: 150px;
     margin-bottom: 10px;
+    
 }
 
 
@@ -62,7 +72,7 @@ img{
     height: 400px;
     width: auto;
     margin-right: 300px;
-    margin-top: 50px;
+    margin-top: 40px;
 
 }
 
@@ -81,6 +91,28 @@ button:hover {
     margin-top: 20px;
     background-color: #3882F6;
     color: black;
+}
+
+/** middle begins **/
+
+.middle{
+    background-color: whitesmoke
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
     
-    
+}
+
+.middle-content{
+    color: #1f2937;
+
+}
+
+.boxes{
+  border: 4px solid #3882F6;
+  border-radius: 10px;
+  width: 5px;
+  height: 50px;
+  
 }
